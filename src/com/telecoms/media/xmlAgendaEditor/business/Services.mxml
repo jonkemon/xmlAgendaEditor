@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rds:ServiceLocator xmlns:rds="com.adobe.cairngorm.business.*" xmlns:mx="http://www.adobe.com/2006/mxml">
+	<mx:HTTPService id="xmlRetrieve" url="http://media2.telecoms.com/loader_flash/bbwfNav/bin-release/xml/photoData.xml" resultFormat="e4x"/>
+</rds:ServiceLocator>
+<!-- SERVER CONNECTION IS http://media2.telecoms.com/loader_flash/galleries/cwsawards_gallery/ -->

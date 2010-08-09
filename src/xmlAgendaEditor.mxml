@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Declarations>
+		<control:PTController xmlns:control="com.telecoms.media.xmlAgendaEditor.control.*"/>
+		<rds:Services xmlns:rds="com.telecoms.media.xmlAgendaEditor.business.*"/>
+	</fx:Declarations>
+	
+	<xmlEdit:HomeScreen xmlns:xmlEdit="com.telecoms.media.xmlAgendaEditor.view.*" id="homeScreen"/>
+</s:WindowedApplication>
